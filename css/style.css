@@ -1,0 +1,13 @@
+* { margin: 0; padding: 0; }
+
+.container { width: 100vw; height: 100vh; background: url("https://images.pexels.com/photos/976866/pexels-photo-976866.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") center/cover; display: -ms-flexbox; display: flex; -ms-flex-align: center; align-items: center; -ms-flex-pack: center; justify-content: center; }
+
+.keybord { display: -ms-flexbox; display: flex; -ms-flex-direction: row; flex-direction: row; padding: 30px; }
+
+.keybord .key { display: -ms-flexbox; display: flex; -ms-flex-pack: distribute; justify-content: space-around; -ms-flex-align: center; align-items: center; -ms-flex-direction: column; flex-direction: column; margin: 10px; padding: 6px; border: 4px solid black; border-radius: 3px; background: rgba(0, 0, 0, 0.5); height: 80px; width: 70px; transition: 0.07s all; }
+
+.keybord .key kbd { font-size: 38px; font-family: 'Quattrocento', serif; font-weight: 700; color: white; }
+
+.keybord .key span { font-size: 14px; color: #ffc600; font-family: 'Open Sans', sans-serif; }
+
+.keybord .playing { transform: scale(1.1); border-color: #ffc600; box-shadow: 0 0 1rem #ffc600; }
